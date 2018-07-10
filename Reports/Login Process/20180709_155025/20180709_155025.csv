@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login Process,Firefox 61.0,,2018-07-09 15:50:26,2018-07-09 15:50:46,19.164s,FAILED
+,,,,,,
+Test Cases/DataDriven Login,Firefox 61.0,,2018-07-09 15:50:27,2018-07-09 15:50:37,10.161s,FAILED
+openBrowser,Firefox 61.0,,2018-07-09 15:50:27,2018-07-09 15:50:33,6.094s,PASSED
+navigateToUrl,Firefox 61.0,,2018-07-09 15:50:33,2018-07-09 15:50:35,2.351s,PASSED
+click,Firefox 61.0,,2018-07-09 15:50:35,2018-07-09 15:50:37,1.305s,FAILED
+,,,,,,
+Test Cases/DataDriven Login,Firefox 61.0,,2018-07-09 15:50:37,2018-07-09 15:50:45,7.990s,FAILED
+openBrowser,Firefox 61.0,,2018-07-09 15:50:37,2018-07-09 15:50:42,5.263s,PASSED
+navigateToUrl,Firefox 61.0,,2018-07-09 15:50:42,2018-07-09 15:50:44,1.770s,PASSED
+click,Firefox 61.0,,2018-07-09 15:50:44,2018-07-09 15:50:45,0.917s,FAILED

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Process" time="13" tests="0" failures="1" errors="0">
+   <testsuite name="Login Process" tests="0" failures="1" errors="0" time="13" timestamp="2018-07-09 16:05:37" hostname="shivam.gandhi.in - L-JBZ6152.jasperindia.local" id="Test Suites/Login Process">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Sample Project\\Reports\\Login Process\\20180709_160535"/>
+         <property name="logFiles" value="D:\\Sample Project\\Reports\\Login Process\\20180709_160535\\execution0.log"/>
+         <property name="attachments" value="D:\\Sample Project\\Reports\\Login Process\\20180709_160535\\1531132549545.png"/>
+         <property name="hostName" value="shivam.gandhi.in - L-JBZ6152.jasperindia.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="10.20.86.25"/>
+         <property name="sessionId" value="15c1b79e-4708-4d6a-83fc-5fd03ea649d8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/DataDriven Login" classname="Test Cases/DataDriven Login" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Login Details/Page_Online Shopping Site in India/button_Login Without Password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element &lt;button id=&quot;sendOtpUC&quot; class=&quot;continueBtn btn col-xs-24 btn-large btn-line-skyblue marT20&quot; type=&quot;button&quot;> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L-JBZ6152', ip: '10.20.86.25', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13224, moz:profile: C:\Users\shivam.gandhi.in\A..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 15c1b79e-4708-4d6a-83fc-5fd03ea649d8)"/>
+         <system-out><![CDATA[2018-07-09 16:05:37 - [TEST_CASE][FAILED] - Test Cases/DataDriven Login: Test Cases/DataDriven Login FAILED because (of) Unable to click on object 'Object Repository/Login Details/Page_Online Shopping Site in India/button_Login Without Password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <button id="sendOtpUC" class="continueBtn btn col-xs-24 btn-large btn-line-skyblue marT20" type="button"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L-JBZ6152', ip: '10.20.86.25', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13224, moz:profile: C:\Users\shivam.gandhi.in\A..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 15c1b79e-4708-4d6a-83fc-5fd03ea649d8)
+
+2018-07-09 16:05:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-09 16:05:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 16:05:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.snapdeal.com/' successfully
+
+2018-07-09 16:05:46 - [MESSAGE][PASSED] - Navigate to 'https://www.snapdeal.com/' successfully
+
+2018-07-09 16:05:46 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Hello World/Page_Online Shopping Site in India/span_Sign In' is present
+
+2018-07-09 16:05:46 - [MESSAGE][PASSED] - Object 'Object Repository/Hello World/Page_Online Shopping Site in India/span_Sign In' is present
+
+2018-07-09 16:05:46 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Hello World/Page_Online Shopping Site in India/span_Sign In' is present
+
+2018-07-09 16:05:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-09 16:05:46 - [MESSAGE][PASSED] - Object 'Object Repository/Hello World/Page_Online Shopping Site in India/span_Sign In' is present
+
+2018-07-09 16:05:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Hello World/Page_Online Shopping Site in India/span_Sign In' is clicked on
+
+2018-07-09 16:05:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Hello World/Page_Online Shopping Site in India/span_Sign In' is clicked on
+
+2018-07-09 16:05:47 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Hello World/Page_Online Shopping Site in India/a_login' is present
+
+2018-07-09 16:05:47 - [MESSAGE][PASSED] - Object 'Object Repository/Hello World/Page_Online Shopping Site in India/a_login' is present
+
+2018-07-09 16:05:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Hello World/Page_Online Shopping Site in India/a_login' is present
+
+2018-07-09 16:05:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-09 16:05:48 - [MESSAGE][PASSED] - Object 'Object Repository/Hello World/Page_Online Shopping Site in India/a_login' is present
+
+2018-07-09 16:05:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Hello World/Page_Online Shopping Site in India/a_login' is clicked on
+
+2018-07-09 16:05:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Hello World/Page_Online Shopping Site in India/a_login' is clicked on
+
+2018-07-09 16:05:48 - [TEST_STEP][PASSED] - setText: Text '965442103' is set on object 'Object Repository/Login Details/Page_Online Shopping Site in India/input_username'
+
+2018-07-09 16:05:49 - [MESSAGE][PASSED] - Text '965442103' is set on object 'Object Repository/Login Details/Page_Online Shopping Site in India/input_username'
+
+2018-07-09 16:05:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Details/Page_Online Shopping Site in India/button_continue' is clicked on
+
+2018-07-09 16:05:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Details/Page_Online Shopping Site in India/button_continue' is clicked on
+
+2018-07-09 16:05:49 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Login Details/Page_Online Shopping Site in India/button_Login Without Password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <button id="sendOtpUC" class="continueBtn btn col-xs-24 btn-large btn-line-skyblue marT20" type="button"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L-JBZ6152', ip: '10.20.86.25', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13224, moz:profile: C:\Users\shivam.gandhi.in\A..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 15c1b79e-4708-4d6a-83fc-5fd03ea649d8)
+
+2018-07-09 16:05:49 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Login Details/Page_Online Shopping Site in India/button_Login Without Password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <button id="sendOtpUC" class="continueBtn btn col-xs-24 btn-large btn-line-skyblue marT20" type="button"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L-JBZ6152', ip: '10.20.86.25', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13224, moz:profile: C:\Users\shivam.gandhi.in\A..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 15c1b79e-4708-4d6a-83fc-5fd03ea649d8)
+[[ATTACHMENT|D:\\Sample Project\\Reports\\Login Process\\20180709_160535\\1531132549545.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-09 16:05:37 - [TEST_CASE][FAILED] - Test Cases/DataDriven Login: Test Cases/DataDriven Login FAILED because (of) Unable to click on object 'Object Repository/Login Details/Page_Online Shopping Site in India/button_Login Without Password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <button id="sendOtpUC" class="continueBtn btn col-xs-24 btn-large btn-line-skyblue marT20" type="button"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L-JBZ6152', ip: '10.20.86.25', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13224, moz:profile: C:\Users\shivam.gandhi.in\A..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 15c1b79e-4708-4d6a-83fc-5fd03ea649d8)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-09 16:05:37 - [TEST_SUITE][FAILED] - Login Process: Test Cases/DataDriven Login FAILED because (of) Unable to click on object 'Object Repository/Login Details/Page_Online Shopping Site in India/button_Login Without Password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <button id="sendOtpUC" class="continueBtn btn col-xs-24 btn-large btn-line-skyblue marT20" type="button"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L-JBZ6152', ip: '10.20.86.25', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13224, moz:profile: C:\Users\shivam.gandhi.in\A..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 15c1b79e-4708-4d6a-83fc-5fd03ea649d8)]]></system-out>
+      <system-err><![CDATA[2018-07-09 16:05:37 - [TEST_SUITE][FAILED] - Login Process: Test Cases/DataDriven Login FAILED because (of) Unable to click on object 'Object Repository/Login Details/Page_Online Shopping Site in India/button_Login Without Password' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <button id="sendOtpUC" class="continueBtn btn col-xs-24 btn-large btn-line-skyblue marT20" type="button"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L-JBZ6152', ip: '10.20.86.25', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13224, moz:profile: C:\Users\shivam.gandhi.in\A..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 15c1b79e-4708-4d6a-83fc-5fd03ea649d8)]]></system-err>
+   </testsuite>
+</testsuites>

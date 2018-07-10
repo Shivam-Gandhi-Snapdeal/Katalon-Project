@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_2</name>
+   <tag></tag>
+   <elementGuidId>61768757-33cc-4a13-b18b-91c4be0ce32b</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cartQuantity</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sdHeader&quot;)/div[@class=&quot;headerBar reset-padding&quot;]/div[@class=&quot;topBar  headWrapper  top-freeze-reference-point&quot;]/div[@class=&quot;header_wrapper&quot;]/div[@class=&quot;col-xs-5 reset-padding header-right rfloat&quot;]/div[@class=&quot;cartContainer col-xs-11 reset-padding&quot;]/div[@class=&quot;cartInner&quot;]/i[@class=&quot;sd-icon sd-icon-cart-icon-white-2&quot;]/span[@class=&quot;cartQuantity&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Process" time="13" tests="1" failures="0" errors="0">
+   <testsuite name="Login Process" tests="1" failures="0" errors="0" time="13" timestamp="2018-07-09 16:09:21" hostname="shivam.gandhi.in - L-JBZ6152.jasperindia.local" id="Test Suites/Login Process">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Sample Project\\Reports\\Login Process\\20180709_160919"/>
+         <property name="logFiles" value="D:\\Sample Project\\Reports\\Login Process\\20180709_160919\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="shivam.gandhi.in - L-JBZ6152.jasperindia.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="10.20.86.25"/>
+         <property name="sessionId" value="2fe8313c-3929-4dd6-9605-b54306c89caf"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/DataDriven Login" classname="Test Cases/DataDriven Login" status="PASSED">
+         <system-out><![CDATA[2018-07-09 16:09:21 - [TEST_CASE][PASSED] - Test Cases/DataDriven Login: Test Cases/DataDriven Login
+
+2018-07-09 16:09:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-09 16:09:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 16:09:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.snapdeal.com/' successfully
+
+2018-07-09 16:09:29 - [MESSAGE][PASSED] - Navigate to 'https://www.snapdeal.com/' successfully
+
+2018-07-09 16:09:29 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Hello World/Page_Online Shopping Site in India/span_Sign In' is present
+
+2018-07-09 16:09:30 - [MESSAGE][PASSED] - Object 'Object Repository/Hello World/Page_Online Shopping Site in India/span_Sign In' is present
+
+2018-07-09 16:09:30 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Hello World/Page_Online Shopping Site in India/span_Sign In' is present
+
+2018-07-09 16:09:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-09 16:09:30 - [MESSAGE][PASSED] - Object 'Object Repository/Hello World/Page_Online Shopping Site in India/span_Sign In' is present
+
+2018-07-09 16:09:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Hello World/Page_Online Shopping Site in India/span_Sign In' is clicked on
+
+2018-07-09 16:09:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Hello World/Page_Online Shopping Site in India/span_Sign In' is clicked on
+
+2018-07-09 16:09:31 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Hello World/Page_Online Shopping Site in India/a_login' is present
+
+2018-07-09 16:09:31 - [MESSAGE][PASSED] - Object 'Object Repository/Hello World/Page_Online Shopping Site in India/a_login' is present
+
+2018-07-09 16:09:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Hello World/Page_Online Shopping Site in India/a_login' is present
+
+2018-07-09 16:09:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-09 16:09:31 - [MESSAGE][PASSED] - Object 'Object Repository/Hello World/Page_Online Shopping Site in India/a_login' is present
+
+2018-07-09 16:09:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Hello World/Page_Online Shopping Site in India/a_login' is clicked on
+
+2018-07-09 16:09:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Hello World/Page_Online Shopping Site in India/a_login' is clicked on
+
+2018-07-09 16:09:32 - [TEST_STEP][PASSED] - setText: Text '9654421103' is set on object 'Object Repository/Login Details/Page_Online Shopping Site in India/input_username'
+
+2018-07-09 16:09:32 - [MESSAGE][PASSED] - Text '9654421103' is set on object 'Object Repository/Login Details/Page_Online Shopping Site in India/input_username'
+
+2018-07-09 16:09:32 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Hello World/Page_Online Shopping Site in India/button_continue' is present
+
+2018-07-09 16:09:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-09 16:09:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-09 16:09:32 - [MESSAGE][PASSED] - Object 'Object Repository/Hello World/Page_Online Shopping Site in India/button_continue' is present
+
+2018-07-09 16:09:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Hello World/Page_Online Shopping Site in India/button_continue' is present
+
+2018-07-09 16:09:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-09 16:09:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-09 16:09:32 - [MESSAGE][PASSED] - Object 'Object Repository/Hello World/Page_Online Shopping Site in India/button_continue' is present
+
+2018-07-09 16:09:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Details/Page_Online Shopping Site in India/button_continue' is clicked on
+
+2018-07-09 16:09:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Details/Page_Online Shopping Site in India/button_continue' is clicked on
+
+2018-07-09 16:09:33 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Hello World/Page_Online Shopping Site in India/button_Login Without Password' is present
+
+2018-07-09 16:09:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-09 16:09:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-09 16:09:33 - [MESSAGE][PASSED] - Object 'Object Repository/Hello World/Page_Online Shopping Site in India/button_Login Without Password' is present
+
+2018-07-09 16:09:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Hello World/Page_Online Shopping Site in India/button_Login Without Password' is present
+
+2018-07-09 16:09:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-09 16:09:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-09 16:09:33 - [MESSAGE][PASSED] - Object 'Object Repository/Hello World/Page_Online Shopping Site in India/button_Login Without Password' is present
+
+2018-07-09 16:09:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Details/Page_Online Shopping Site in India/button_Login Without Password' is clicked on
+
+2018-07-09 16:09:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Details/Page_Online Shopping Site in India/button_Login Without Password' is clicked on
+
+2018-07-09 16:09:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-09 16:09:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-09 16:09:21 - [TEST_SUITE][PASSED] - Login Process: Test Cases/DataDriven Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
